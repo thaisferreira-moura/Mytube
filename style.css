@@ -11,6 +11,27 @@ body {
 /**************************************************************************************
 /* Cabeçalho com barra de pesquisa */
 header {
+    .search-container {
+        display: flex;
+        justify-content: center; /* Centraliza a barra */
+        margin-top: 20px; /* Margem superior */
+        
+    }
+    
+    input[type="text"] {
+        border: 2px solid #ccc; /* Cor da borda */
+        border-radius: 20px; /* Bordas arredondadas */
+        padding: 10px 15px; /* Espaçamento interno */
+        width: 300px; /* Largura da barra */
+        outline: none; /* Remove o contorno padrão */
+        transition: border-color 0.3s; /* Transição ao focar */
+        border: none;
+    }
+    
+    input[type="text"]:focus {
+        border-color: #007bff; /* Cor da borda ao focar */
+    }
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,17 +97,27 @@ header {
 /******************************************************************************************
 /* Container do vídeo principal */
 .video-container {
-    width: 70%;    /* Ocupa 70% da largura disponível */
+    position: relative;
+    width: 150%;    /* Ocupa 70% da largura disponível */
+    max-width: 800px;
+    height: auto;
+    overflow: hidden;
 }
 
 .video-container iframe {
     width: 100%;
-    height: 315px;
+    height: 100% 
+    top: 0;
+    left: 0;
+
+
 }
 
 .video-container h1 {
     font-size: 18px;
     margin-top: 10px;
+    justify-content: flex-start;
+    margin: ;
 }
 
 /******************************************************************************************
@@ -96,8 +127,8 @@ header {
 }
 
 .sidebar h2 {
-    font-size: 16px;
-    margin-bottom: 15px;
+    font-size: 25px;
+    margin-bottom: 20px;
 }
 
 .thumbnail {
