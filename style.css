@@ -7,21 +7,6 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #f8f8f8;
-
-
-
-/**************************************************************************************
-/* Cabeçalho com barra de pesquisa */
-/
-    display flex
-    justify-content: flex-start; /* Alinha o conteúdo da div à esquerda */
-    align-items: center; /* Alinha verticalmente o conteúdo */
-    padding: 10px 20px; /* Espaçamento interno opcional */
-    position: absolute; /* Coloca a div no topo da página */
-    top: 0; /* Posiciona no topo */
-    left: 0; /* Posiciona no lado esquerdo */
-    background-color: #f8f8f8; /* Cor de fundo da header (opcional) */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra (opcional) */
 }
 
 .titulo {
@@ -31,14 +16,12 @@ body {
 }
 
 header {
-
         display: flex;
         justify-content: center; /* Centraliza a barra */
         margin-top: 20px; /* Margem superior */
         
-    }
-    
-    input[type="text"] {
+}
+input[type="text"] {
         border: 2px solid #ccc; /* Cor da borda */
         border-radius: 20px; /* Bordas arredondadas */
         padding: 10px 15px; /* Espaçamento interno */
@@ -46,11 +29,11 @@ header {
         outline: none; /* Remove o contorno padrão */
         transition: border-color 0.3s; /* Transição ao focar */
         border: none;
-    }
+}
     
-    input[type="text"]:focus {
+input[type="text"]:focus {
         border-color: #007bff; /* Cor da borda ao focar */
-    }
+}
 
 .search-bar {
     display: flex;
