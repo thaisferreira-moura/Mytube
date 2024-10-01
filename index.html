@@ -8,25 +8,46 @@
 </head>
 <body>
 
-    <div class="video-container">
-        <h1>Meu Vídeo Principal</h1>
-        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
-    </div>
+    <!-- Cabeçalho com barra de pesquisa -->
+    <header>
+        <div class="search-bar">
+            <input type="text" placeholder="Pesquisar">
+            <button>🔍</button> 
+            <button>🎤</button>
+        </div>
+        <div class="header-icons">
+            <button>📸</button>
+            <button>🔔</button>
+        </div>
+    </header>
 
-    <div class="sidebar">
-        <h2>Vídeos Relacionados</h2>
-        <div class="thumbnail">
-            <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg" alt="Thumbnail 1">
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Título do Vídeo 1</a>
-  
+    <!-- Contêiner principal para vídeo e barra lateral -->
+    <div class="main-content">
+        <!-- Container do vídeo principal -->
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_GSI2RaiV0s?si=AHVwPw9JYZmNVKhq" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+            </iframe>
+            <h1>Um dia de um engenheiro de software trabalhando na Suiça</h1>
         </div>
-        <div class="thumbnail">
-            <img src="https://img.youtube.com/vi/oHg5SJYRHA0/0.jpg" alt="Thumbnail 2">
-            <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0">Título do Vídeo 2</a>
-        </div>
-        <div class="thumbnail">
-            <img src="https://img.youtube.com/vi/3fumBcKC6RE/0.jpg" alt="Thumbnail 3">
-            <a href="https://www.youtube.com/watch?v=3fumBcKC6RE">Título do Vídeo 3</a>
+
+        <!-- Sidebar com vídeos relacionados -->
+        <div class="sidebar">
+            <h2>Vídeos Relacionados</h2>
+            <div class="thumbnail">
+                <img src="./img1.jpg" alt="Thumbnail 1">
+                <a href="https://youtu.be/Q0YYA8hSV8g?si=iA7FmokNcAqi2OPm">Vale a pena estudar programação?</a>
+            </div>
+            <div class="thumbnail">
+                <img src="./img2.jfif" alt="Thumbnail 2">
+                <a href="https://youtu.be/k5RUngL_HUg?si=XFgpxsIJw2N01p-q">Assista um Dev Senior programando</a>
+            </div>
+            <div class="thumbnail">
+                <img src="./img3.jfif" alt="Thumbnail 3">
+                <a href="https://youtu.be/zgvwc16iaBs?si=2r8TVFS1AizphAqL">Programador iniciante? Foque nisso</a>
+            </div>
         </div>
     </div>
 
