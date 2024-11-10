@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <style>
+        /* Estilos gerais da página */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Container do formulário */
+        .login-container {
+            background-color: #f8f8f8;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        /* Título */
+        h1 {
+            text-align: center;
+            color: #e60000;
+            margin-bottom: 20px;
+        }
+
+        /* Estilo do campo de entrada */
+        .input-field {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        /* Cor do campo de foco */
+        .input-field:focus {
+            border-color: #e60000;
+            outline: none;
+        }
+
+        /* Botão de login */
+        .login-button {
+            width: 100%;
+            padding: 12px;
+            background-color: #e60000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .login-button:hover {
+            background-color: #c50000;
+        }
+
+        /* Estilo para links */
+        .forgot-password {
+            text-align: center;
+            display: block;
+            margin-top: 10px;
+            color: #e60000;
+            text-decoration: none;
+        }
+
+        .forgot-password:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    
+    < <!-- Formulário de login -->
+    <div class="login-container">
+        <h1>Login</h1>
+        <input type="email" class="input-field" id="login" placeholder="Email" required>
+        <input type="password" class="input-field" id="password" placeholder="Senha" required>
+        <button type="submit" class="login-button" onclick="login()">Entrar</button>
+        <a href="#" class="forgot-password">Esqueceu sua senha?</a>
+    </div>
+
+    <!-- Conectando o script.js -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+
