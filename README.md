@@ -62,7 +62,7 @@ Site em HTML que simula uma página do Youtube contendo um cabeçalho com barra 
 
 <!-- AQUI VOCÊ PASSA O CAMINHO DA IMAGEM -->
 
-![Web1](https://github.com/thaisferreira-moura/AgencyWeb/blob/section-services/thumb%20-%20AgencyWeb.png)
+![Web1](https://github.com/thaisferreira-moura/Mytube/blob/main/miniatura%20mytube.png)
 
 ---
 
